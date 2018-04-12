@@ -7,7 +7,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 import com.loy.e.data.permission.data.DefaultDataPermissionQueryParam;
 
 /**
- * 111
+ * 222
  * @author Loy Fu qq群 540553957 website = http://www.17jee.com
  */
 public class CompanyQueryParam extends DefaultDataPermissionQueryParam {
@@ -19,6 +19,8 @@ public class CompanyQueryParam extends DefaultDataPermissionQueryParam {
 	private String phone;
 	
 	public String ojojolji;
+	
+	private String lljljl;
 
 	String orderProperty = "";
 
