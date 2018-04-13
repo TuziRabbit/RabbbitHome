@@ -11,12 +11,14 @@ import com.loy.e.data.permission.data.DefaultDataPermissionQueryParam;
  * @author Loy Fu qq群 540553957 website = http://www.17jee.com
  */
 public class CompanyQueryParam extends DefaultDataPermissionQueryParam {
-	private String name;
+	private String nagf;
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date registerDateStart;
 	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date registerDateEnd;
 	private String phone;
+	
+	String ljlj;
 	
 	public String ojojolji;
 	
@@ -42,13 +44,6 @@ public class CompanyQueryParam extends DefaultDataPermissionQueryParam {
 		this.direction = direction;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public Date getRegisterDateStart() {
 		return registerDateStart;
